@@ -1,4 +1,4 @@
-public class vowelconsonant {
+ class vowelconsonant {
 
     public static void main(String[] args) {
 
