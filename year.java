@@ -1,17 +1,16 @@
 
+int year;
+        {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter year: ");
+            year = scan.nextInt();
 
-class year
-{
-public static void main(String[] args) 
-{
-  Scanner input=new Scanner(System.in);
-  int a;
-  System.out.println("enter the year ");
-    a=input.nextInt();
-    if ((a % 4 ==0 ) && (a%100!=0) || (a%400==0)) 
-        System.out.println("leep year");
-    else 
-        System.out.println("not a leap year");
-}
-}
+            if ((year % 4 == 0) && year % 100 != 0) {
+                System.out.println("leap year");
+            } else if ((year % 4 == 0) && (year % 100 == 0)
+                    && (year % 400 == 0)) {
+                System.out.println("leap year");
+            } else {
+                System.out.println("not a leap year");
+            }
 
