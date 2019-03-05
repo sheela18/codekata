@@ -1,8 +1,4 @@
 
- class check
-{
-    public static void main(String[] args) 
-    {
         int number;
         if(number > 0)
             System.out.println("positive ");
@@ -10,5 +6,4 @@
             System.out.println( "negative");
         else
             System.out.println("default");
-    }
-}
+ 
