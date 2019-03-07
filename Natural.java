@@ -1,4 +1,5 @@
- class Natural {
+ import java.util.Scanner;
+class Natural {
 	private static Scanner sc;
 	public static void main(String[] args) 
 	{
