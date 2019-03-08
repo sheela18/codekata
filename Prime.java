@@ -11,8 +11,7 @@ int num = 33, i = 2;
             }
          ++i;
         }
-
-        if (!flag)
+      if (!flag)
             System.out.println("yes");
         else
             System.out.println("no");
