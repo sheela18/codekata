@@ -5,7 +5,7 @@
        {  
           String original, reverse = ""; 
           Scanner in = new Scanner(System.in);   
-          System.out.println("enter no palindrome/not");  
+          System.out.println("enter no palindrom/not palindrome");  
           original = in.nextLine();   
           int length = original.length();   
           for ( int i = length - 1; i >= 0; i-- )  
